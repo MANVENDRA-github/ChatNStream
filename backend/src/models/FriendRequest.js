@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+//sender, recipient , and status mongodb schema design
 const friendRequestSchema = new mongoose.Schema(
   {
     sender: {
